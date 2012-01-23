@@ -1,0 +1,7 @@
+content	hammertime jar:chrome/hammertime.jar!/content/
+
+overlay chrome://browser/content/browser.xul chrome://hammertime/content/hammertime.xul
+
+skin hammertime classic/1.0 jar:chrome/hammertime.jar!/skin/
+
+style chrome://global/content/customizeToolbar.xul chrome://hammertime/skin/overlay.css

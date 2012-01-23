@@ -1,0 +1,1 @@
+This Firefox extension replaces the stop button so that when pressed, the immortal words of MC Hammer are uttered – “Stop! Hammertime!”. 

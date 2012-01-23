@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{f274730f-db76-4942-97ba-7984ab94f854}</em:id>
+    <em:version>2.1d</em:version>
+    <em:type>2</em:type>
+   
+    <!-- Target Application this extension can install into, 
+         with minimum and maximum supported versions. --> 
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>3.6.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+   
+    <!-- Front End MetaData -->
+    <em:name>STOP! Hammertime!</em:name>
+    <em:description>Stops pages loading with the vocal contributions of MC Hammer</em:description>
+    <em:creator>Ben Dodson</em:creator>
+    <em:homepageURL>http://bendodson.com/extensions/</em:homepageURL>
+    <em:optionsURL>chrome://hammertime/content/options.xul</em:optionsURL>
+    <em:aboutURL>chrome://hammertime/content/about.xul</em:aboutURL>
+    <em:iconURL>chrome://hammertime/content/logo.gif</em:iconURL>
+  </Description>      
+</RDF>
